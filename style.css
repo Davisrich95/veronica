@@ -1,0 +1,43 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the page */
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Container for content */
+.container {
+    text-align: center; /* Centers the text */
+    background: white; /* White background for the content */
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styles for the main heading */
+h1 {
+    color: #333; /* Dark grey color for the text */
+    font-size: 2em; /* Larger text size */
+}
+
+/* Styling links for trip options */
+a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners for the links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for links */
+a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
