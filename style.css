@@ -17,12 +17,25 @@ body {
     padding: 50px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow */
     border-radius: 8px; /* Rounded corners */
+    width: 90%; /* Limits the width to avoid overly wide paragraphs on large screens */
+    max-width: 600px; /* Maximum width to maintain readability */
 }
 
 /* Styles for the main heading */
 h1 {
     color: #333; /* Dark grey color for the text */
     font-size: 2em; /* Larger text size */
+}
+
+/* Styling paragraphs for better readability */
+p {
+    text-align: justify; /* Justifies the text to align both left and right edges */
+    line-height: 1.6; /* Increases line height for better readability */
+    margin: 20px 0; /* Adds top and bottom margins to separate paragraphs */
+}
+
+.center-text {
+    text-align: center; /* Centers the text */
 }
 
 /* Styling links for trip options */
